@@ -1,17 +1,85 @@
-body{
-     background-color: blueviolet ;
-}
-h1{
+body {
+    background-color: #fffbf7;
+  }
+  
+  h1 {
     color: #025157;
     text-align: center;
-
-}
-p{
+    font-family: 'Alegreya', serif;
+  }
+  
+  p {
     color: #8b8b8bcc;
     font-family: Verdana;
-    font: size 20px;
-}
-button{
+    font-size: 20px;
+  }
+  
+  button {
     color: #fff;
-    background-color: #025457;
-}
+    background-color: #025157;
+  }
+  
+  .header {
+    /* margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px; */
+    margin: 40px 20px 0;
+    font-size: 0;
+    font-family: sans-serif;
+  }
+  
+  li {
+    display: inline;
+    margin: 0 25px 0;
+  }
+  
+  .header > * {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 45px;
+    height: 100%;
+    vertical-align: middle;
+  }
+  
+  .logo {
+    width: 15%;
+  }
+  
+  .logo > img {
+    width: 15%;
+  }
+  
+  .navbar {
+    width: 70%;
+    text-align: center;
+    color: #025157;
+    font-weight: 500;
+  }
+  
+  .actions {
+    width: 15%;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  .actions > * {
+    margin: 0 10px;
+  }
+  
+  .actions a {
+    color: #67b54b;
+  }
+  
+  .actions button {
+    color: white;
+    background-color: #67b54b;
+    padding: 12px 14px;
+    border: 0;
+    border-radius: 5px;
+  }
+  
+  .main {
+    margin-top: 140px;
+    text-align: center;
+  }
