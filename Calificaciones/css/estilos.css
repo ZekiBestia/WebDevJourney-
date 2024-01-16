@@ -11,7 +11,7 @@ header {
     background-color: #061A37;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;;
     
 }
 header h1, header h2{
@@ -44,6 +44,8 @@ aside{
     border-radius: 10px 30px 10px 10px;
     padding: 10px;
     background-color: #adc6eb;
+    outline: 1px double blue;
+    outline-offset: 10px;
 }
 table{
     margin: auto;
@@ -52,7 +54,8 @@ table{
     border-collapse: collapse;
     text-align: center;
     font-size: 12px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    box-sizing: border-box;
     
 }
 
@@ -86,11 +89,12 @@ table{
     
 }
 
-table,th,td{
+th,td{
     border-collapse: collapse;
     border:solid 1px black;
     padding: 5px;
     text-align: center;
+    font-size: 15px;
 
 }
 
@@ -105,6 +109,7 @@ h3{
         flex-direction: row;
         text-align: center;
         width: 100%;
+        margin: 0;
     }
 
     .logo,
