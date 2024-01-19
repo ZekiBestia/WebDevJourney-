@@ -1,0 +1,13 @@
+h1{
+    color:blue;
+    text-align: center;
+    font-size: 40px;
+}
+
+div{
+    color: green;
+    text-align: center;
+    padding: 20px;
+    border: 15px solid rgba(0, 0, 0, 0.514);
+    margin: 20px;
+}

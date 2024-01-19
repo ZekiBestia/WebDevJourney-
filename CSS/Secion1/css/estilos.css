@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+}
+
+.Rojo{
+    border: 10px solid red;
+    
+}
+.Azul{
+    border: 10px dashed blue;
+    
+}
+.Verde{
+    border: 10px dotted rgb(50, 116, 50);
+    border-color: blue red yellow green;
+    
+}
+
+.Negro{
+    border:10px double rgb(155, 20, 20);
+}
+.Amarillo{
+    border-style: dashed;
+    border-color: aqua blue green black;
+    border-width: 10px;
+}
+
+h2{
+    background-color: rgb(248, 191, 191);
+    color: white;
+}

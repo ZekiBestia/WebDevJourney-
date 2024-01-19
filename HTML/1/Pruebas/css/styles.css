@@ -1,0 +1,90 @@
+h1{
+    border: 10px solid #fcbf49;
+    color:#d62828;
+    font-size: 30px;
+    font-family: "Courier", Times, serif;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+h2{
+    color: #d62828;
+    text-align: left;
+    text-decoration: underline;
+    background-color: #CF995F;
+    padding: 10px;
+    border: 15px solid rgb(41, 41, 100);
+    margin:10px;
+}
+ol{
+    color:#628395;
+}
+.destacado{
+    color:#fcbf49;
+
+}   
+#fondo{
+    background: #003049;
+}
+h1 span{
+    color:#D0CE7C;
+}
+p{
+    color:#96897B;
+}
+
+p.big{
+    font-size: 1.5rem;
+}
+p.big span{
+    font-weight: bold;
+}
+.Imagen{
+    width: 90px;
+    height: 90px;
+    border: 10px solid #DBAD6A;
+    border-radius: 50%;
+    margin: 10,60,90,200px;
+    padding: 10,40,40,20px;
+    text-align: center;
+}
+
+/*Los estados de los links*/
+/*Cuando no ha sido visitado*/
+a:link{
+    color: #fcbf49;
+    text-decoration: none;
+}
+
+/*Cuando ya ha sido visitado*/
+a:visited{
+    color: #13c531;
+    text-decoration: none;
+}
+
+/*Cuando el mouse esta encima*/
+a:hover{
+    color: #d62828;
+    text-decoration: underline;
+}
+
+/*Cuando se selecciona*/
+a:active{
+    color: #f8fc08da;
+    text-decoration: underline;
+}
+
+/*simular un boton*/    
+.button{
+    background-color: #fcbf49;
+    border: none;
+    color: #003049;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 12px;
+}

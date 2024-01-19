@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Ejemplos con etiquetas básicas</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body id="fondo">
+    <h1 id="principio">Etiquetas HTML</h1>
+    <p>Ejemplo para mostrar las etiquetas básicas de HTML estamos probando la funcion de
+    <br>
+    Recuerda que <strong> es importante para resaltar algo importante</strong>
+    </p>
+
+    <h2>Etiqueta ul+li</h2>
+    <p>
+        Si listamos los actores nominados al oscar, dado el orden no altera
+        el significado en esta caso usamos <strong><em>ul</em></strong>
+    </p>
+    <p>
+        <ul>
+            <li>Brad Pit</li>
+            <li>Leonardo Di Caprio</li>
+            <li>Tom Hanks</li>
+            <li>Robert De Niro</li>
+        </ul>
+    </p>
+    <h2>Etiqueta ol+li</h2>
+    <p class="destacado">
+        En el caso de listar la tabla de posiciones de la liga mx, si importa el 
+        orden de los equipos, en este caso usamos <strong><em>ol</em></strong>
+
+    </p>
+    <p>
+        <ol>
+            <li>Monterrey</li>
+            <li>América</li>
+            <li>León</li>
+            <li>Tigres</li>
+        </ol>
+
+    <h2>
+        Enlaces o hipervinculos
+    </h2>
+    <p>
+        <ul style="color: red">
+            <li><a href="https://www.google.com" target="_blank">Google</a></li>
+            <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+            <li><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
+            <li><button class="button" onclick="window.location.href='main.html'" target="_blank">Main</button></li>
+            <!-- Esto es un hipervínculo al principio -->
+            <li><a href="#principio">Principio</a></li>
+            <li style="color: blue">Experiencia</li>
+            <!-- Imagen que nos lleva al perfil de GitHub Zekibestia -->
+            <li><a href="https://github.com/ZekiBestia" target="_blank">
+                <img class="Imagen" src="https://avatars.githubusercontent.com/u/94556252?s=400&u=8e405688881ed0704634ad8761353afc0a8f090b&v=4" alt="Imagen de perfil de GitHub" width="200px" title="Imagen de Perfil"/>
+            </a></li>
+        </ul>
+        
+
+    </p>
+    <h2 title="Imagenes">Imagenes</h2>
+    <p>
+        <img class="Imagen"src="https://avatars.githubusercontent.com/u/94556252?s=400&u=8e405688881ed0704634ad8761353afc0a8f090b&v=4 " alt="Imagen de perfil de github" width="200px" title="Imagen de Perfil"/>
+    </p>
+    <br>
+    <br>
+    <h2>Tablas</h2>
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Edad</th>
+        </tr>
+        <tr>
+            <td>Jose</td>
+            <td>Alvarez</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>Pedro</td>
+            <td>Alvarez</td>
+            <td>20</td>
+    </table>
+    <p>
+        Utilizamos Colspan
+    </p>
+    <table>
+        <tr>
+        <td>Fila 1, columna 1</td>
+        <td colspan="3"> Fila 1, columnas 2, 3 y 4</td>
+        </tr>
+        <tr>
+        <td rowspan="2">Fila 2, columna 1 + Fila 3, columna 1</td>
+        <td>Fila 2 columna 2</td>
+        <td>Fila 2 columna 3</td>
+        <td>Fila 2 columna 4</td>
+        </tr>
+        <tr>
+        <td>Fila 3 columna 2</td>
+        <td>Fila 3 columna 3</td>
+        <td>Fila 3 columna 4</td>
+        </tr>
+        </table>
+    <h2>Formularios</h2>
+    <form action="https://www.google.com" method="get">
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre">
+        <br>
+        <label for="apellido">Apellido</label>
+        <input type="text" name="apellido" id="apellido" placeholder="Escribe tu apellido">
+        <br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Escribe tu email">
+        <br>
+        <label for="password">Contraseña</label>
+        <input type="password" name="password" id="password" placeholder="Escribe tu contraseña">
+        <br>
+        <label for="fecha">Fecha de nacimiento</label>
+        <input type="date" name="fecha" id="fecha">
+        <br>
+        <label for="color">Color favorito</label>
+        <input type="color" name="color" id="color">
+        <br>
+        <label for="numero">Numero favorito</label>
+        <input type="number" name="numero" id="numero">
+        <br>
+        <label for="url">Pagina web</label>
+        <input type="url" name="url" id="url">
+        <br>
+        <label for="archivo">Archivo</label>
+        <input type="file" name="archivo" id="archivo">
+        <br>
+    <h1>Mi <span>Curriculum Vitae</span></h1>
+        <p class="big"><span>Nombre</span>: Raúl Jiménez Ortega</p>
+            <p class="big"><span>Lugar de nacimiento</span>: Málaga</p>
+        <p>Fecha de nacimiento: 11/03/1984</p>
+    <h1>Utilizamos etiqueta <em>pre</em> para que se respete nuestro texto tal cual lo escribimos</h1>
+    <p>
+        <pre>
+            Hola, que tal soy Ezequiel
+            Naci en Mexico y estoy estudiando en la universidad Nacional Autonoma de Mexico
+            Estudio la carrera de Ingenieria en Computacion y me gusta mucho programar en Java
+        </pre>
+    </p>
+
+
+
+</body>
+</html>

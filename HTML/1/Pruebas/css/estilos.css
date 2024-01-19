@@ -1,0 +1,21 @@
+h1{
+    color:#fcbf49;
+    text-align: center;
+}
+
+a:link,a:visited{
+    color: #fcbf49;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 12px;
+    border: 2px solid #fcbf49;
+    background-color: #003049;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #0c7074;
+    text-decoration: underline;
+}

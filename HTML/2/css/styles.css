@@ -1,0 +1,23 @@
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+}
+
+.ulss{
+    list-style-type:none;
+
+
+}
+li a {
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    float: left;
+    padding: 5px;
+    margin: 5px;
+}
+li a:hover{
+    background-color: rgb(219, 87, 191);
+}

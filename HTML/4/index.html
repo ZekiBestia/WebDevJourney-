@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FormularioHTML</title>
+  </head>
+
+  <body>
+    <h1>Formulario HTML</h1>
+    <form method="get">
+      <fieldset>
+        <legend>Formulario</legend>
+        <label for="persona">Id Persona</label><br/>
+        <input type="text" name="persona" id="persona" value="319316339" readonly="true"/><br/>
+        <label for="nombre">Nombre</label><br />
+        <input
+          type="text"
+          name="nombre"
+          id="nombre"
+          value="Camilo"
+          placeholder="Escribe tu nombre"
+          required="true"
+        /><br />
+        <label for="apellido">Apellido</label><br />
+        <input
+          type="apellido"
+          name="apellido"
+          id="apellido"
+          value="Hernandez"
+          placeholder="Escribe tu apellido"
+          required="true"
+        />
+        <br />
+        <label for="password">Password</label>
+        <br />
+        <input type="password" name="password" id="password" required="true" />
+        <br />
+        <label for="edad">Edad</label>
+        <input
+          type="number"
+          name="edad"
+          id="edad"
+          min="18"
+          max="99"
+          required="true"
+        />
+        <br />
+        <label for="estatura">Estatura</label>
+        <input
+          type="number"
+          name="estatura"
+          id="estatura"
+          min="1.50"
+          max="2.10"
+          step="0.01"
+          required="true"
+        />
+        <label for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Escribe tu email"
+          required="true"
+        />
+        <br />
+        <lael>Genero</lael><br />
+        <input
+          type="radio"
+          name="genero"
+          required="true"
+          id="masculino"
+          value="masculino"
+        />
+        <label for="masculino">Masculino</label>
+        <input type="radio" name="genero" id="femenino" value="femenino" />
+        <label for="femenino">Femenino</label><br />
+        <label for="color">Color</label>
+        <input type="color" name="color" id="color" value="#ff0000" /><br />
+        <label for="fecha">Fecha de nacimiento</label>
+        <input type="date" name="fecha" id="fecha" required="true" /><br />
+        <input type="checkbox" name="musica" id="rock" value="rock" />
+        <label for="rock">Rock</label>
+        <input type="checkbox" name="musica" id="pop" value="pop" />
+        <label for="pop">Pop</label>
+        <input type="checkbox" name="musica" id="salsa" value="salsa" />
+        <label for="salsa">Salsa</label>
+        <input type="checkbox" name="musica" id="regueton" value="regueton" />
+        <label for="regueton">Regueton</label>
+        <input type="checkbox" name="musica" id="otro" value="otros" />
+        <label for="otro">Otro</label><br/>
+        <label for="autos">Marca favorita:</label><br/>
+        <select name="autos" id="autos">
+          <option value="volvo">Volvo</option>
+          <option value="nissan">Nissan</option>
+          <option value="toyota">Toyota</option>
+        </select>
+        <br/>
+        <label for="comentario">Comentario</label><br/>
+        <textarea name="comentario" id="comentario" cols="30" rows="5">
+        Escribe tu comentario
+        </textarea
+        ><br />
+        <br />
+        <br />
+        <input type="submit" value="Enviar" />
+        <input type="submit" formnovalidate="formnovalidate" value="Enviar sin validad" />
+        <input type="reset" value="Borrar" />
+      </fieldset>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,42 @@
+h1{
+    color: red;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+
+}
+
+div {
+    background-color: aqua;
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+    margin-left:100px;
+    border:solid 1px black;
+    
+}
+
+div .interno{
+    background-color: rgb(204, 161, 161);
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+    margin:auto;
+    border:solid 1px black;
+    
+}
+
+.interno{
+    margin: inherit;
+    padding: inherit;
+    background-color: inherit;
+
+}
+.margen1{
+    margin:30px;
+    border:solid 1px black;
+}
+.margen2{
+    margin:20px;
+    border:solid 1px black;
+}

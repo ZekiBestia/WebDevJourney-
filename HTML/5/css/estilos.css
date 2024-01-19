@@ -1,0 +1,52 @@
+header{
+    color: aquamarine;
+    text-align: center;
+    font-size: 20px;
+}
+nav{
+    text-align: center;
+}
+nav a{
+    background-color: brown;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+nav a:hover{
+    background-color: aquamarine;
+    color: black;
+}
+section{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(221, 117, 56);
+    width: 90%;
+    float: left;
+    padding: 10px;
+    margin: 20px;
+    box-shadow:1px 0 4px rgb(0,0,0,0.2) ;
+}
+aside{
+    float:right;
+    width: 20%;
+    padding: 5px;
+    font-style: italic;
+    box-shadow: inset 5px 0 5px -4px #4895ef;
+}
+
+footer{
+    clear: both;
+    background-color: brown;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+footer a{
+    color: aquamarine;
+    text-decoration: none;
+}

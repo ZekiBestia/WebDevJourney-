@@ -1,0 +1,74 @@
+
+/*Identificador css*/
+#titulo-principal{
+    color: red;
+    text-align: center;
+    margin: 10px;
+
+}
+#fondo{
+    background-color: rgb(221, 221, 126);
+}
+h2{
+    color: blue;
+
+}
+/*Clase css*/
+.tarjeta{
+    color: green;
+    text-align: center;
+    font-size: 20px;
+    border:2px solid brown;
+    background-color: rgb(247, 247, 127);
+    margin: 25px 10px;
+}
+.titulo{
+    color : rgb(43, 128, 161);
+}
+
+.youtube{
+    text-align: center;
+}
+
+.marco{
+    border:1px solid rgb(67, 223, 114);
+    background-color: rgb(247, 247, 127);
+    margin: 25px 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.marc{
+    border:1px solid rgb(67, 223, 114);
+    background-color: rgb(247, 247, 127);
+    margin: 25px 10px;
+    text-align: center;
+    width: 50%;
+    height: 400px;
+}
+.div{
+    border: 2px solid rgb(184, 86, 29);
+    background-color: rgb(126, 224, 101);
+    text-align: center;
+}
+
+.boton{
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    border : 1px solid rgb(255, 0, 0);
+    padding: 5px;
+    background-color: rgb(12, 67, 139);
+    display: inline-block;
+}
+.boton:hover{
+    color: rgb(0, 255, 0);
+    text-decoration: none;
+    background-color: rgb(184, 86, 29);
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; /* Esto es opcional y ajustará la altura del contenedor al 100% de la altura de la ventana */
+}
