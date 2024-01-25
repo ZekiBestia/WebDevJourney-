@@ -3,5 +3,12 @@ body{
     color:rgba(255, 127, 80, 0.719);
     background-image: url(../img/paisaje.avif);
     background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    background-attachment: fixed;
 
+}
+h1{
+    text-align: center;
+    background-color: gray;
 }

@@ -1,0 +1,25 @@
+
+ header h1{
+    color: #3976AA;
+    background-color: #FFCC3F;
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    text-shadow: 2px 2px 2px #3c2c6613;
+}
+.contenedor{
+    margin: 10px;
+    width: 60%;
+}
+
+header h2{
+    color: #E7373F;
+    text-align: center;
+    text-shadow: 2px 2px 2px #3c2c660c;
+    text-decoration: underline overline;
+}
+.texto{
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+}
